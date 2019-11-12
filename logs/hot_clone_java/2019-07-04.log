@@ -1,0 +1,781 @@
+2019-07-04 12:13:06.589  INFO --- [            main] com.example.demo.DemoApplication           50 : Starting DemoApplication on Lenovo-PC with PID 260856 (E:\work\demo\out\production\classes started by lenovo in E:\work\demo)
+2019-07-04 12:13:06.599  INFO --- [            main] com.example.demo.DemoApplication          646 : No active profile set, falling back to default profiles: default
+2019-07-04 12:13:09.534  INFO --- [            main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  330 : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$972332a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-04 12:13:10.266  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer    90 : Tomcat initialized with port(s): 8888 (http)
+2019-07-04 12:13:10.302  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Initializing ProtocolHandler ["http-nio-8888"]
+2019-07-04 12:13:10.319  INFO --- [            main] org.apache.catalina.core.StandardService  173 : Starting service [Tomcat]
+2019-07-04 12:13:10.319  INFO --- [            main] org.apache.catalina.core.StandardEngine   173 : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-04 12:13:10.884  INFO --- [            main] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring embedded WebApplicationContext
+2019-07-04 12:13:10.885  INFO --- [            main] o.s.web.context.ContextLoader             283 : Root WebApplicationContext: initialization completed in 4179 ms
+2019-07-04 12:13:11.390  INFO --- [            main] com.alibaba.druid.pool.DruidDataSource    947 : {dataSource-1} inited
+2019-07-04 12:13:12.150  WARN --- [            main] c.e.d.c.s.MyFilterSecurityInterceptor     159 : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2019-07-04 12:13:12.556  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-07-04 12:13:12.566  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-07-04 12:13:13.339  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-04 12:13:13.341  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-04 12:13:13.342  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/images/**'], []
+2019-07-04 12:13:13.343  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/resources/static/**'], []
+2019-07-04 12:13:13.422  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78b0ec3a, org.springframework.security.web.context.SecurityContextPersistenceFilter@25f0c5e7, org.springframework.security.web.header.HeaderWriterFilter@207dd1b7, org.springframework.security.web.authentication.logout.LogoutFilter@720f56e2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@267891bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@120df990, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d7cac24, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@111a7973, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46612bfc, org.springframework.security.web.session.SessionManagementFilter@23ad2d17, org.springframework.security.web.access.ExceptionTranslationFilter@1e92c3b6, com.example.demo.common.security.MyFilterSecurityInterceptor@db99785, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20216016]
+2019-07-04 12:13:13.446  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskScheduler  171 : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-07-04 12:13:13.491  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'brokerChannelExecutor'
+2019-07-04 12:13:13.945  INFO --- [            main] o.s.b.a.w.s.WelcomePageHandlerMapping      58 : Adding welcome page template: index
+2019-07-04 12:13:13.975  INFO --- [            main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping   69 : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-04 12:13:14.288  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  151 : Context refreshed
+2019-07-04 12:13:14.315  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  154 : Found 1 custom documentation plugin(s)
+2019-07-04 12:13:14.383  INFO --- [            main] s.d.s.w.s.ApiListingReferenceScanner       41 : Scanning for api listing references
+2019-07-04 12:13:14.572  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Starting...
+2019-07-04 12:13:14.573  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-07-04 12:13:14.573  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Started.
+2019-07-04 12:13:14.587  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Starting ProtocolHandler ["http-nio-8888"]
+2019-07-04 12:13:14.640  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer   202 : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-04 12:13:14.648  INFO --- [            main] com.example.demo.DemoApplication           59 : Started DemoApplication in 9.673 seconds (JVM running for 18.352)
+2019-07-04 12:13:55.810  INFO --- [-nio-8888-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-04 12:13:55.812  INFO --- [-nio-8888-exec-8] o.s.web.servlet.DispatcherServlet         524 : Initializing Servlet 'dispatcherServlet'
+2019-07-04 12:13:55.837  INFO --- [-nio-8888-exec-8] o.s.web.servlet.DispatcherServlet         546 : Completed initialization in 25 ms
+2019-07-04 12:14:13.490  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2019-07-04 12:14:14.604  INFO --- [-nio-8888-exec-5] c.e.demo.common.config.WebSecurityConfig   52 : bf468880a91f07998e3005aab12939ea=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 12:14:21.186  INFO --- [-nio-8888-exec-8] c.e.demo.common.config.WebSecurityConfig   52 : bf468880a91f07998e3005aab12939ea=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 12:14:25.674  INFO --- [-nio-8888-exec-3] c.e.demo.common.config.WebSecurityConfig   52 : 95ba9e495e440a81c23de49209af728b=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 12:15:02.804  INFO --- [-nio-8888-exec-3] c.e.demo.common.config.WebSecurityConfig   52 : bf468880a91f07998e3005aab12939ea=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 12:15:07.614  INFO --- [nio-8888-exec-10] c.e.demo.common.config.WebSecurityConfig   52 : 95ba9e495e440a81c23de49209af728b=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 12:15:44.741  INFO --- [            main] com.example.demo.DemoApplication           50 : Starting DemoApplication on Lenovo-PC with PID 18796 (E:\work\demo\out\production\classes started by lenovo in E:\work\demo)
+2019-07-04 12:15:44.760  INFO --- [            main] com.example.demo.DemoApplication          646 : No active profile set, falling back to default profiles: default
+2019-07-04 12:15:48.134  INFO --- [            main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  330 : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$622764c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-04 12:15:48.980  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer    90 : Tomcat initialized with port(s): 8888 (http)
+2019-07-04 12:15:49.017  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Initializing ProtocolHandler ["http-nio-8888"]
+2019-07-04 12:15:49.037  INFO --- [            main] org.apache.catalina.core.StandardService  173 : Starting service [Tomcat]
+2019-07-04 12:15:49.038  INFO --- [            main] org.apache.catalina.core.StandardEngine   173 : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-04 12:15:49.652  INFO --- [            main] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring embedded WebApplicationContext
+2019-07-04 12:15:49.652  INFO --- [            main] o.s.web.context.ContextLoader             283 : Root WebApplicationContext: initialization completed in 4773 ms
+2019-07-04 12:15:50.203  INFO --- [            main] com.alibaba.druid.pool.DruidDataSource    947 : {dataSource-1} inited
+2019-07-04 12:15:51.227  WARN --- [            main] c.e.d.c.s.MyFilterSecurityInterceptor     159 : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2019-07-04 12:15:51.804  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-07-04 12:15:51.814  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-07-04 12:15:52.910  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-04 12:15:52.911  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-04 12:15:52.912  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/images/**'], []
+2019-07-04 12:15:52.913  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/resources/static/**'], []
+2019-07-04 12:15:52.987  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18c880ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f193335, org.springframework.security.web.header.HeaderWriterFilter@7c9beb51, org.springframework.security.web.authentication.logout.LogoutFilter@5463f035, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@760f1081, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ec88aa1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6aff97d6, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@401e02b4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ac044ef, org.springframework.security.web.session.SessionManagementFilter@2aa5bd48, org.springframework.security.web.access.ExceptionTranslationFilter@418f0534, com.example.demo.common.security.MyFilterSecurityInterceptor@54ffa561, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f2b39a]
+2019-07-04 12:15:53.017  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskScheduler  171 : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-07-04 12:15:53.083  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'brokerChannelExecutor'
+2019-07-04 12:15:53.739  INFO --- [            main] o.s.b.a.w.s.WelcomePageHandlerMapping      58 : Adding welcome page template: index
+2019-07-04 12:15:53.776  INFO --- [            main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping   69 : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-04 12:15:54.092  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  151 : Context refreshed
+2019-07-04 12:15:54.132  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  154 : Found 1 custom documentation plugin(s)
+2019-07-04 12:15:54.201  INFO --- [            main] s.d.s.w.s.ApiListingReferenceScanner       41 : Scanning for api listing references
+2019-07-04 12:15:54.397  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Starting...
+2019-07-04 12:15:54.397  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-07-04 12:15:54.398  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Started.
+2019-07-04 12:15:54.419  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Starting ProtocolHandler ["http-nio-8888"]
+2019-07-04 12:15:54.552  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer   202 : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-04 12:15:54.562  INFO --- [            main] com.example.demo.DemoApplication           59 : Started DemoApplication in 11.356 seconds (JVM running for 23.61)
+2019-07-04 12:16:01.273  INFO --- [-nio-8888-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-04 12:16:01.273  INFO --- [-nio-8888-exec-9] o.s.web.servlet.DispatcherServlet         524 : Initializing Servlet 'dispatcherServlet'
+2019-07-04 12:16:01.289  INFO --- [-nio-8888-exec-9] o.s.web.servlet.DispatcherServlet         546 : Completed initialization in 16 ms
+2019-07-04 12:16:01.457  INFO --- [-nio-8888-exec-9] c.e.demo.common.config.WebSecurityConfig   52 : 9a428f069d6985b60ebcb260367068dd=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 12:16:25.099  INFO --- [nio-8888-exec-10] c.e.demo.common.config.WebSecurityConfig   52 : bf468880a91f07998e3005aab12939ea=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 12:16:38.704  INFO --- [InboundChannel-7] c.e.demo.controller.WebSocketController    20 : asdas
+2019-07-04 12:16:53.082  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 13]
+2019-07-04 12:16:56.209  INFO --- [-nio-8888-exec-4] c.e.demo.common.config.WebSecurityConfig   52 : 07681b6f37c4e86de2905b342ddb431e=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 12:17:00.625  INFO --- [-nio-8888-exec-1] c.e.demo.common.config.WebSecurityConfig   52 : 07681b6f37c4e86de2905b342ddb431e=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 12:17:02.925  INFO --- [InboundChannel-9] c.e.demo.controller.WebSocketController    20 : sda
+2019-07-04 12:17:24.979  INFO --- [InboundChannel-7] c.e.demo.controller.WebSocketController    20 : QQ
+2019-07-04 12:17:31.335  INFO --- [InboundChannel-4] c.e.demo.controller.WebSocketController    20 : 接收
+2019-07-04 12:17:35.579  INFO --- [nboundChannel-10] c.e.demo.controller.WebSocketController    20 : 发送
+2019-07-04 12:17:50.627  INFO --- [InboundChannel-6] c.e.demo.controller.WebSocketController    20 : 已收到
+2019-07-04 12:17:57.713  INFO --- [InboundChannel-8] c.e.demo.controller.WebSocketController    20 : 已发送
+2019-07-04 12:18:14.834  INFO --- [InboundChannel-3] c.e.demo.controller.WebSocketController    20 : QQ
+2019-07-04 12:18:30.547  INFO --- [InboundChannel-1] c.e.demo.controller.WebSocketController    20 : /12/
+2019-07-04 12:19:10.581  INFO --- [nboundChannel-11] c.e.demo.controller.WebSocketController    20 : ↓o
+2019-07-04 12:19:19.992  INFO --- [nboundChannel-14] c.e.demo.controller.WebSocketController    20 : ↑
+2019-07-04 12:19:24.634  INFO --- [InboundChannel-6] c.e.demo.controller.WebSocketController    20 : ←
+2019-07-04 12:19:26.342  INFO --- [nboundChannel-13] c.e.demo.controller.WebSocketController    20 : ←
+2019-07-04 12:19:30.263  INFO --- [nboundChannel-15] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:31.087  INFO --- [nboundChannel-12] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:31.337  INFO --- [nboundChannel-16] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:31.544  INFO --- [InboundChannel-1] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:31.976  INFO --- [nboundChannel-11] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:32.190  INFO --- [nboundChannel-14] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:32.391  INFO --- [InboundChannel-6] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:32.647  INFO --- [nboundChannel-13] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:33.095  INFO --- [nboundChannel-15] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:33.319  INFO --- [nboundChannel-12] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:33.847  INFO --- [nboundChannel-16] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:34.295  INFO --- [InboundChannel-1] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:34.608  INFO --- [nboundChannel-11] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:34.871  INFO --- [nboundChannel-14] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:38.055  INFO --- [InboundChannel-6] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:38.223  INFO --- [nboundChannel-13] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:19:38.415  INFO --- [nboundChannel-15] c.e.demo.controller.WebSocketController    20 : ←→
+2019-07-04 12:46:53.079  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 102], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 31], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 510]
+2019-07-04 13:16:53.074  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 105], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 32], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 946]
+2019-07-04 13:46:53.074  INFO --- [ MessageBroker-3] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 105], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 32], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 1379]
+2019-07-04 13:59:22.046  INFO --- [nboundChannel-20] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 13:59:22.467  INFO --- [nboundChannel-23] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 13:59:23.804  INFO --- [nboundChannel-26] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 13:59:24.825  INFO --- [nboundChannel-22] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 13:59:25.297  INFO --- [nboundChannel-25] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 13:59:25.530  INFO --- [nboundChannel-27] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 13:59:41.805  INFO --- [nboundChannel-24] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 13:59:59.262  INFO --- [nio-8888-exec-10] c.e.demo.common.config.WebSecurityConfig   52 : 9a428f069d6985b60ebcb260367068dd=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 14:00:03.974  INFO --- [-nio-8888-exec-4] c.e.demo.common.config.WebSecurityConfig   52 : 9a428f069d6985b60ebcb260367068dd=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 14:00:06.977  INFO --- [nboundChannel-23] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:12.336  INFO --- [nboundChannel-26] c.e.demo.controller.WebSocketController    20 : asdasd
+2019-07-04 14:00:26.831  INFO --- [-nio-8888-exec-2] c.e.demo.common.config.WebSecurityConfig   52 : 07681b6f37c4e86de2905b342ddb431e=================== 5a9429fea01064c01c833f302a0a29a6
+2019-07-04 14:00:28.833  INFO --- [nboundChannel-24] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:30.585  INFO --- [nboundChannel-25] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:30.761  INFO --- [nboundChannel-26] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:30.970  INFO --- [nboundChannel-28] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:31.161  INFO --- [nboundChannel-21] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:31.377  INFO --- [nboundChannel-20] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:31.569  INFO --- [nboundChannel-23] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:31.785  INFO --- [nboundChannel-22] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:32.097  INFO --- [nboundChannel-24] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:32.313  INFO --- [nboundChannel-25] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:32.513  INFO --- [nboundChannel-26] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:32.745  INFO --- [nboundChannel-28] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:32.938  INFO --- [nboundChannel-21] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:33.201  INFO --- [nboundChannel-20] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:33.697  INFO --- [nboundChannel-23] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:34.345  INFO --- [nboundChannel-22] c.e.demo.controller.WebSocketController    20 : 已收到====================
+2019-07-04 14:00:37.708  INFO --- [nboundChannel-24] c.e.demo.controller.WebSocketController    20 : asdasasdasda
+2019-07-04 14:00:38.530  INFO --- [nboundChannel-25] c.e.demo.controller.WebSocketController    20 : asdasasdasda
+2019-07-04 14:00:39.145  INFO --- [nboundChannel-26] c.e.demo.controller.WebSocketController    20 : asdasasdasda
+2019-07-04 14:00:39.649  INFO --- [nboundChannel-20] c.e.demo.controller.WebSocketController    20 : asdasasdasda
+2019-07-04 14:00:40.178  INFO --- [nboundChannel-21] c.e.demo.controller.WebSocketController    20 : asdasasdasda
+2019-07-04 14:00:40.793  INFO --- [nboundChannel-28] c.e.demo.controller.WebSocketController    20 : asdasasdasda
+2019-07-04 14:00:44.273  INFO --- [nboundChannel-23] c.e.demo.controller.WebSocketController    20 : 66666666666666666
+2019-07-04 14:00:44.697  INFO --- [nboundChannel-22] c.e.demo.controller.WebSocketController    20 : 66666666666666666
+2019-07-04 14:00:44.993  INFO --- [nboundChannel-24] c.e.demo.controller.WebSocketController    20 : 66666666666666666
+2019-07-04 14:00:45.401  INFO --- [nboundChannel-25] c.e.demo.controller.WebSocketController    20 : 66666666666666666
+2019-07-04 14:00:45.985  INFO --- [nboundChannel-26] c.e.demo.controller.WebSocketController    20 : 66666666666666666
+2019-07-04 14:00:46.313  INFO --- [nboundChannel-20] c.e.demo.controller.WebSocketController    20 : 66666666666666666
+2019-07-04 14:00:50.484  INFO --- [nboundChannel-21] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:51.361  INFO --- [nboundChannel-28] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:51.881  INFO --- [nboundChannel-23] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:52.385  INFO --- [nboundChannel-22] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:52.738  INFO --- [nboundChannel-24] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:53.201  INFO --- [nboundChannel-25] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:53.441  INFO --- [nboundChannel-26] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:53.713  INFO --- [nboundChannel-20] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:53.921  INFO --- [nboundChannel-21] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:54.073  INFO --- [nboundChannel-28] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:57.745  INFO --- [nboundChannel-23] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:57.945  INFO --- [nboundChannel-22] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:58.129  INFO --- [nboundChannel-24] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:58.338  INFO --- [nboundChannel-25] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:58.521  INFO --- [nboundChannel-26] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:58.697  INFO --- [nboundChannel-28] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:58.881  INFO --- [nboundChannel-21] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:59.057  INFO --- [nboundChannel-20] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:59.241  INFO --- [nboundChannel-23] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:59.433  INFO --- [nboundChannel-22] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:00:59.761  INFO --- [nboundChannel-24] c.e.demo.controller.WebSocketController    20 : exit
+2019-07-04 14:16:53.074  INFO --- [ MessageBroker-4] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 4 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(4)-CONNECTED(4)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 294], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 84], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 1850]
+2019-07-04 14:28:59.945  INFO --- [            main] com.example.demo.DemoApplication           50 : Starting DemoApplication on Lenovo-PC with PID 261184 (E:\work\demo\out\production\classes started by lenovo in E:\work\demo)
+2019-07-04 14:28:59.953  INFO --- [            main] com.example.demo.DemoApplication          646 : No active profile set, falling back to default profiles: default
+2019-07-04 14:29:02.354  INFO --- [            main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  330 : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee2b5cf4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-04 14:29:03.000  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer    90 : Tomcat initialized with port(s): 8888 (http)
+2019-07-04 14:29:03.027  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Initializing ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:29:03.039  INFO --- [            main] org.apache.catalina.core.StandardService  173 : Starting service [Tomcat]
+2019-07-04 14:29:03.039  INFO --- [            main] org.apache.catalina.core.StandardEngine   173 : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-04 14:29:03.497  INFO --- [            main] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring embedded WebApplicationContext
+2019-07-04 14:29:03.497  INFO --- [            main] o.s.web.context.ContextLoader             283 : Root WebApplicationContext: initialization completed in 3400 ms
+2019-07-04 14:29:03.907  INFO --- [            main] com.alibaba.druid.pool.DruidDataSource    947 : {dataSource-1} inited
+2019-07-04 14:29:04.545  WARN --- [            main] c.e.d.c.s.MyFilterSecurityInterceptor     159 : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2019-07-04 14:29:05.029  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-07-04 14:29:05.036  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-07-04 14:29:05.854  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-04 14:29:05.855  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-04 14:29:05.856  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/images/**'], []
+2019-07-04 14:29:05.857  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/resources/static/**'], []
+2019-07-04 14:29:05.944  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e362407, org.springframework.security.web.context.SecurityContextPersistenceFilter@4975dda1, org.springframework.security.web.header.HeaderWriterFilter@1d60059f, org.springframework.security.web.authentication.logout.LogoutFilter@25f0c5e7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d99ee1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5463f035, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3db6dd52, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@167a21b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@388be5fd, org.springframework.security.web.session.SessionManagementFilter@427308f8, org.springframework.security.web.access.ExceptionTranslationFilter@68aec50, com.example.demo.common.security.MyFilterSecurityInterceptor@52831a73, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70091872]
+2019-07-04 14:29:05.971  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskScheduler  171 : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-07-04 14:29:06.018  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'brokerChannelExecutor'
+2019-07-04 14:29:06.438  INFO --- [            main] o.s.b.a.w.s.WelcomePageHandlerMapping      58 : Adding welcome page template: index
+2019-07-04 14:29:06.464  INFO --- [            main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping   69 : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-04 14:29:06.686  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  151 : Context refreshed
+2019-07-04 14:29:06.721  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  154 : Found 1 custom documentation plugin(s)
+2019-07-04 14:29:06.773  INFO --- [            main] s.d.s.w.s.ApiListingReferenceScanner       41 : Scanning for api listing references
+2019-07-04 14:29:06.932  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Starting...
+2019-07-04 14:29:06.933  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-07-04 14:29:06.934  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Started.
+2019-07-04 14:29:06.951  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Starting ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:29:07.028  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer   202 : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-04 14:29:07.034  INFO --- [            main] com.example.demo.DemoApplication           59 : Started DemoApplication in 8.293 seconds (JVM running for 17.502)
+2019-07-04 14:29:36.490  INFO --- [-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-04 14:29:36.491  INFO --- [-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet         524 : Initializing Servlet 'dispatcherServlet'
+2019-07-04 14:29:36.512  INFO --- [-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet         546 : Completed initialization in 21 ms
+2019-07-04 14:29:46.918  INFO --- [-nio-8888-exec-7] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:29:53.830  INFO --- [-nio-8888-exec-2] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:29:58.001  INFO --- [InboundChannel-7] c.e.demo.controller.WebSocketController    20 : dasdasdas
+2019-07-04 14:29:58.588  INFO --- [InboundChannel-3] c.e.demo.controller.WebSocketController    20 : dasdasdas
+2019-07-04 14:29:58.793  INFO --- [InboundChannel-4] c.e.demo.controller.WebSocketController    20 : dasdasdas
+2019-07-04 14:29:59.034  INFO --- [InboundChannel-8] c.e.demo.controller.WebSocketController    20 : dasdasdas
+2019-07-04 14:30:06.019  INFO --- [ MessageBroker-4] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 18], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 3]
+2019-07-04 14:30:41.672  INFO --- [-nio-8888-exec-6] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:30:47.764  INFO --- [-nio-8888-exec-9] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:31:08.508  INFO --- [            main] com.example.demo.DemoApplication           50 : Starting DemoApplication on Lenovo-PC with PID 260300 (E:\work\demo\out\production\classes started by lenovo in E:\work\demo)
+2019-07-04 14:31:08.519  INFO --- [            main] com.example.demo.DemoApplication          646 : No active profile set, falling back to default profiles: default
+2019-07-04 14:31:10.965  INFO --- [            main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  330 : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed68492a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-04 14:31:11.597  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer    90 : Tomcat initialized with port(s): 8888 (http)
+2019-07-04 14:31:11.625  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Initializing ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:31:11.641  INFO --- [            main] org.apache.catalina.core.StandardService  173 : Starting service [Tomcat]
+2019-07-04 14:31:11.642  INFO --- [            main] org.apache.catalina.core.StandardEngine   173 : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-04 14:31:12.206  INFO --- [            main] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring embedded WebApplicationContext
+2019-07-04 14:31:12.207  INFO --- [            main] o.s.web.context.ContextLoader             283 : Root WebApplicationContext: initialization completed in 3578 ms
+2019-07-04 14:31:12.622  INFO --- [            main] com.alibaba.druid.pool.DruidDataSource    947 : {dataSource-1} inited
+2019-07-04 14:31:13.291  WARN --- [            main] c.e.d.c.s.MyFilterSecurityInterceptor     159 : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2019-07-04 14:31:13.723  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-07-04 14:31:13.730  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-07-04 14:31:14.467  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-04 14:31:14.468  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-04 14:31:14.468  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/images/**'], []
+2019-07-04 14:31:14.469  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/resources/static/**'], []
+2019-07-04 14:31:14.522  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@440ef8d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5463f035, org.springframework.security.web.header.HeaderWriterFilter@427308f8, org.springframework.security.web.authentication.logout.LogoutFilter@120df990, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@167a21b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44fd7ba4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ef4cbe1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2e362407, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17fbfb02, org.springframework.security.web.session.SessionManagementFilter@4975dda1, org.springframework.security.web.access.ExceptionTranslationFilter@1d60059f, com.example.demo.common.security.MyFilterSecurityInterceptor@1416ff46, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d99ee1b]
+2019-07-04 14:31:14.547  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskScheduler  171 : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-07-04 14:31:14.593  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'brokerChannelExecutor'
+2019-07-04 14:31:14.998  INFO --- [            main] o.s.b.a.w.s.WelcomePageHandlerMapping      58 : Adding welcome page template: index
+2019-07-04 14:31:15.023  INFO --- [            main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping   69 : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-04 14:31:15.226  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  151 : Context refreshed
+2019-07-04 14:31:15.254  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  154 : Found 1 custom documentation plugin(s)
+2019-07-04 14:31:15.299  INFO --- [            main] s.d.s.w.s.ApiListingReferenceScanner       41 : Scanning for api listing references
+2019-07-04 14:31:15.427  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Starting...
+2019-07-04 14:31:15.428  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-07-04 14:31:15.429  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Started.
+2019-07-04 14:31:15.446  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Starting ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:31:15.528  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer   202 : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-04 14:31:15.535  INFO --- [            main] com.example.demo.DemoApplication           59 : Started DemoApplication in 8.262 seconds (JVM running for 16.975)
+2019-07-04 14:32:14.593  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2019-07-04 14:32:24.558  INFO --- [-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-04 14:32:24.558  INFO --- [-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet         524 : Initializing Servlet 'dispatcherServlet'
+2019-07-04 14:32:24.569  INFO --- [-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet         546 : Completed initialization in 11 ms
+2019-07-04 14:32:24.758  INFO --- [-nio-8888-exec-1] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:32:35.594  INFO --- [-nio-8888-exec-6] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:33:09.163  INFO --- [-nio-8888-exec-9] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-04 14:33:09.164  INFO --- [-nio-8888-exec-9] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-04 14:33:09.165  INFO --- [-nio-8888-exec-9] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/images/**'], []
+2019-07-04 14:33:09.165  INFO --- [-nio-8888-exec-9] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/resources/static/**'], []
+2019-07-04 14:33:09.165  INFO --- [-nio-8888-exec-9] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-04 14:33:09.166  INFO --- [-nio-8888-exec-9] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-04 14:33:09.166  INFO --- [-nio-8888-exec-9] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/images/**'], []
+2019-07-04 14:33:09.166  INFO --- [-nio-8888-exec-9] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/resources/static/**'], []
+2019-07-04 14:33:09.204  INFO --- [-nio-8888-exec-9] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@440ef8d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5463f035, org.springframework.security.web.context.SecurityContextPersistenceFilter@3dcd4d57, org.springframework.security.web.header.HeaderWriterFilter@427308f8, org.springframework.security.web.header.HeaderWriterFilter@258b4f7c, org.springframework.security.web.authentication.logout.LogoutFilter@120df990, org.springframework.security.web.authentication.logout.LogoutFilter@2f1a71b2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@167a21b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@167a21b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44fd7ba4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50952473, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ef4cbe1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ef4cbe1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2e362407, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3c885f8b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17fbfb02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17fbfb02, org.springframework.security.web.session.SessionManagementFilter@4975dda1, org.springframework.security.web.session.SessionManagementFilter@681b2791, org.springframework.security.web.access.ExceptionTranslationFilter@1d60059f, org.springframework.security.web.access.ExceptionTranslationFilter@46627c31, com.example.demo.common.security.MyFilterSecurityInterceptor@1416ff46, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d99ee1b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@68a15b51]
+2019-07-04 14:33:09.211  INFO --- [-nio-8888-exec-9] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@440ef8d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5463f035, org.springframework.security.web.context.SecurityContextPersistenceFilter@3dcd4d57, org.springframework.security.web.context.SecurityContextPersistenceFilter@3811d39c, org.springframework.security.web.header.HeaderWriterFilter@427308f8, org.springframework.security.web.header.HeaderWriterFilter@258b4f7c, org.springframework.security.web.header.HeaderWriterFilter@17f4c5df, org.springframework.security.web.authentication.logout.LogoutFilter@120df990, org.springframework.security.web.authentication.logout.LogoutFilter@2f1a71b2, org.springframework.security.web.authentication.logout.LogoutFilter@386cb7e3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@167a21b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@167a21b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@167a21b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44fd7ba4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50952473, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9074121, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ef4cbe1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ef4cbe1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ef4cbe1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2e362407, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3c885f8b, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@34abef85, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17fbfb02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17fbfb02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17fbfb02, org.springframework.security.web.session.SessionManagementFilter@4975dda1, org.springframework.security.web.session.SessionManagementFilter@681b2791, org.springframework.security.web.session.SessionManagementFilter@24c9d46c, org.springframework.security.web.access.ExceptionTranslationFilter@1d60059f, org.springframework.security.web.access.ExceptionTranslationFilter@46627c31, org.springframework.security.web.access.ExceptionTranslationFilter@b774a1d, com.example.demo.common.security.MyFilterSecurityInterceptor@1416ff46, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d99ee1b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@68a15b51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e612691]
+2019-07-04 14:33:12.313  INFO --- [-nio-8888-exec-1] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:33:19.602  INFO --- [-nio-8888-exec-6] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:33:38.366  INFO --- [            main] com.example.demo.DemoApplication           50 : Starting DemoApplication on Lenovo-PC with PID 185964 (E:\work\demo\out\production\classes started by lenovo in E:\work\demo)
+2019-07-04 14:33:38.374  INFO --- [            main] com.example.demo.DemoApplication          646 : No active profile set, falling back to default profiles: default
+2019-07-04 14:33:40.870  INFO --- [            main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  330 : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19c0b58a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-04 14:33:41.497  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer    90 : Tomcat initialized with port(s): 8888 (http)
+2019-07-04 14:33:41.526  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Initializing ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:33:41.539  INFO --- [            main] org.apache.catalina.core.StandardService  173 : Starting service [Tomcat]
+2019-07-04 14:33:41.539  INFO --- [            main] org.apache.catalina.core.StandardEngine   173 : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-04 14:33:42.025  INFO --- [            main] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring embedded WebApplicationContext
+2019-07-04 14:33:42.026  INFO --- [            main] o.s.web.context.ContextLoader             283 : Root WebApplicationContext: initialization completed in 3560 ms
+2019-07-04 14:33:42.481  INFO --- [            main] com.alibaba.druid.pool.DruidDataSource    947 : {dataSource-1} inited
+2019-07-04 14:33:43.173  WARN --- [            main] c.e.d.c.s.MyFilterSecurityInterceptor     159 : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2019-07-04 14:33:43.552  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-07-04 14:33:43.560  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-07-04 14:33:44.310  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-04 14:33:44.310  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-04 14:33:44.311  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/images/**'], []
+2019-07-04 14:33:44.311  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/resources/static/**'], []
+2019-07-04 14:33:44.362  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@716f94c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c176ff1, org.springframework.security.web.header.HeaderWriterFilter@6ed18d80, org.springframework.security.web.authentication.logout.LogoutFilter@66451058, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1abcd059, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68aec50, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69d103f0, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3c33fcf8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53feeac9, org.springframework.security.web.session.SessionManagementFilter@783b3aa0, org.springframework.security.web.access.ExceptionTranslationFilter@3030836d, com.example.demo.common.security.MyFilterSecurityInterceptor@124d26ba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10e9a5fe]
+2019-07-04 14:33:44.384  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskScheduler  171 : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-07-04 14:33:44.457  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'brokerChannelExecutor'
+2019-07-04 14:33:44.870  INFO --- [            main] o.s.b.a.w.s.WelcomePageHandlerMapping      58 : Adding welcome page template: index
+2019-07-04 14:33:44.895  INFO --- [            main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping   69 : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-04 14:33:45.123  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  151 : Context refreshed
+2019-07-04 14:33:45.162  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  154 : Found 1 custom documentation plugin(s)
+2019-07-04 14:33:45.217  INFO --- [            main] s.d.s.w.s.ApiListingReferenceScanner       41 : Scanning for api listing references
+2019-07-04 14:33:45.346  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Starting...
+2019-07-04 14:33:45.346  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-07-04 14:33:45.347  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Started.
+2019-07-04 14:33:45.360  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Starting ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:33:45.404  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer   202 : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-04 14:33:45.413  INFO --- [            main] com.example.demo.DemoApplication           59 : Started DemoApplication in 8.302 seconds (JVM running for 20.101)
+2019-07-04 14:34:14.671  INFO --- [-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-04 14:34:14.672  INFO --- [-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet         524 : Initializing Servlet 'dispatcherServlet'
+2019-07-04 14:34:14.683  INFO --- [-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet         546 : Completed initialization in 11 ms
+2019-07-04 14:34:14.826  INFO --- [-nio-8888-exec-1] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:34:44.456  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2019-07-04 14:35:02.240  INFO --- [            main] com.example.demo.DemoApplication           50 : Starting DemoApplication on Lenovo-PC with PID 245856 (E:\work\demo\out\production\classes started by lenovo in E:\work\demo)
+2019-07-04 14:35:02.245  INFO --- [            main] com.example.demo.DemoApplication          646 : No active profile set, falling back to default profiles: default
+2019-07-04 14:35:04.685  INFO --- [            main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  330 : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46bbe001] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-04 14:35:05.299  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer    90 : Tomcat initialized with port(s): 8888 (http)
+2019-07-04 14:35:05.325  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Initializing ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:35:05.336  INFO --- [            main] org.apache.catalina.core.StandardService  173 : Starting service [Tomcat]
+2019-07-04 14:35:05.336  INFO --- [            main] org.apache.catalina.core.StandardEngine   173 : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-04 14:35:05.852  INFO --- [            main] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring embedded WebApplicationContext
+2019-07-04 14:35:05.853  INFO --- [            main] o.s.web.context.ContextLoader             283 : Root WebApplicationContext: initialization completed in 3503 ms
+2019-07-04 14:35:06.229  INFO --- [            main] com.alibaba.druid.pool.DruidDataSource    947 : {dataSource-1} inited
+2019-07-04 14:35:06.887  WARN --- [            main] c.e.d.c.s.MyFilterSecurityInterceptor     159 : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2019-07-04 14:35:07.301  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-07-04 14:35:07.307  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-07-04 14:35:07.995  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-04 14:35:07.995  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-04 14:35:07.996  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/images/**'], []
+2019-07-04 14:35:07.996  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/resources/static/**'], []
+2019-07-04 14:35:08.046  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53feeac9, org.springframework.security.web.context.SecurityContextPersistenceFilter@27c53c32, org.springframework.security.web.header.HeaderWriterFilter@4c24f3a2, org.springframework.security.web.authentication.logout.LogoutFilter@3db6dd52, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61a87366, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6aff97d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b742bc8, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@dada335, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70091872, org.springframework.security.web.session.SessionManagementFilter@2ec85a25, org.springframework.security.web.access.ExceptionTranslationFilter@6af78a48, com.example.demo.common.security.MyFilterSecurityInterceptor@a0bf272, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@259287ac]
+2019-07-04 14:35:08.066  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskScheduler  171 : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-07-04 14:35:08.116  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'brokerChannelExecutor'
+2019-07-04 14:35:08.548  INFO --- [            main] o.s.b.a.w.s.WelcomePageHandlerMapping      58 : Adding welcome page template: index
+2019-07-04 14:35:08.571  INFO --- [            main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping   69 : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-04 14:35:08.799  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  151 : Context refreshed
+2019-07-04 14:35:08.861  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  154 : Found 1 custom documentation plugin(s)
+2019-07-04 14:35:08.906  INFO --- [            main] s.d.s.w.s.ApiListingReferenceScanner       41 : Scanning for api listing references
+2019-07-04 14:35:09.018  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Starting...
+2019-07-04 14:35:09.018  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-07-04 14:35:09.019  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Started.
+2019-07-04 14:35:09.030  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Starting ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:35:09.075  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer   202 : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-04 14:35:09.082  INFO --- [            main] com.example.demo.DemoApplication           59 : Started DemoApplication in 8.064 seconds (JVM running for 17.568)
+2019-07-04 14:35:41.147  INFO --- [-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-04 14:35:41.148  INFO --- [-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet         524 : Initializing Servlet 'dispatcherServlet'
+2019-07-04 14:35:41.168  INFO --- [-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet         546 : Completed initialization in 20 ms
+2019-07-04 14:35:44.320  INFO --- [-nio-8888-exec-3] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:35:44.354 ERROR --- [-nio-8888-exec-4] org.thymeleaf.TemplateEngine             1136 : [THYMELEAF][http-nio-8888-exec-4] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.invoke(MyFilterSecurityInterceptor.java:48)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.doFilter(MyFilterSecurityInterceptor.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.invoke(MyFilterSecurityInterceptor.java:48)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.doFilter(MyFilterSecurityInterceptor.java:38)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:40002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "msg.title" (template: "index" - line 38, col 13)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 94 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "msg.title" (template: "index" - line 38, col 13)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 96 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'title' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:90)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:109)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 115 common frames omitted
+2019-07-04 14:35:44.366 ERROR --- [-nio-8888-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]     175 : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'title' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:90)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:109)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.invoke(MyFilterSecurityInterceptor.java:48)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.doFilter(MyFilterSecurityInterceptor.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.invoke(MyFilterSecurityInterceptor.java:48)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.doFilter(MyFilterSecurityInterceptor.java:38)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:40002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-04 14:36:08.114  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2019-07-04 14:36:45.639  INFO --- [            main] com.example.demo.DemoApplication           50 : Starting DemoApplication on Lenovo-PC with PID 257196 (E:\work\demo\out\production\classes started by lenovo in E:\work\demo)
+2019-07-04 14:36:45.648  INFO --- [            main] com.example.demo.DemoApplication          646 : No active profile set, falling back to default profiles: default
+2019-07-04 14:36:48.009  INFO --- [            main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  330 : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf967649] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-04 14:36:48.650  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer    90 : Tomcat initialized with port(s): 8888 (http)
+2019-07-04 14:36:48.677  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Initializing ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:36:48.691  INFO --- [            main] org.apache.catalina.core.StandardService  173 : Starting service [Tomcat]
+2019-07-04 14:36:48.692  INFO --- [            main] org.apache.catalina.core.StandardEngine   173 : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-04 14:36:49.276  INFO --- [            main] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring embedded WebApplicationContext
+2019-07-04 14:36:49.276  INFO --- [            main] o.s.web.context.ContextLoader             283 : Root WebApplicationContext: initialization completed in 3521 ms
+2019-07-04 14:36:49.658  INFO --- [            main] com.alibaba.druid.pool.DruidDataSource    947 : {dataSource-1} inited
+2019-07-04 14:36:50.355  WARN --- [            main] c.e.d.c.s.MyFilterSecurityInterceptor     159 : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2019-07-04 14:36:50.737  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-07-04 14:36:50.747  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-07-04 14:36:51.581  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-04 14:36:51.582  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-04 14:36:51.583  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/images/**'], []
+2019-07-04 14:36:51.584  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/resources/static/**'], []
+2019-07-04 14:36:51.638  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@642c6461, org.springframework.security.web.context.SecurityContextPersistenceFilter@4466cf5d, org.springframework.security.web.header.HeaderWriterFilter@f559c74, org.springframework.security.web.authentication.logout.LogoutFilter@164d01ba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@159ac15f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2450256f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@478967eb, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@7af1d072, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ace6346, org.springframework.security.web.session.SessionManagementFilter@720f56e2, org.springframework.security.web.access.ExceptionTranslationFilter@5e99e2cb, com.example.demo.common.security.MyFilterSecurityInterceptor@498a612d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@799f354a]
+2019-07-04 14:36:51.665  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskScheduler  171 : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-07-04 14:36:51.713  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'brokerChannelExecutor'
+2019-07-04 14:36:52.130  INFO --- [            main] o.s.b.a.w.s.WelcomePageHandlerMapping      58 : Adding welcome page template: index
+2019-07-04 14:36:52.155  INFO --- [            main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping   69 : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-04 14:36:52.349  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  151 : Context refreshed
+2019-07-04 14:36:52.402  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  154 : Found 1 custom documentation plugin(s)
+2019-07-04 14:36:52.450  INFO --- [            main] s.d.s.w.s.ApiListingReferenceScanner       41 : Scanning for api listing references
+2019-07-04 14:36:52.619  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Starting...
+2019-07-04 14:36:52.619  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-07-04 14:36:52.620  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Started.
+2019-07-04 14:36:52.631  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Starting ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:36:52.678  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer   202 : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-04 14:36:52.686  INFO --- [            main] com.example.demo.DemoApplication           59 : Started DemoApplication in 8.236 seconds (JVM running for 17.547)
+2019-07-04 14:36:59.260  INFO --- [-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-04 14:36:59.261  INFO --- [-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet         524 : Initializing Servlet 'dispatcherServlet'
+2019-07-04 14:36:59.279  INFO --- [-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet         546 : Completed initialization in 16 ms
+2019-07-04 14:37:06.760  INFO --- [-nio-8888-exec-3] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:37:15.848  INFO --- [-nio-8888-exec-1] c.e.demo.common.config.WebSecurityConfig   52 : 36f1cab655c5252fc4f163a1409500b8=================== user
+2019-07-04 14:37:24.814  INFO --- [-nio-8888-exec-5] c.e.demo.common.config.WebSecurityConfig   52 : 36f1cab655c5252fc4f163a1409500b8=================== user
+2019-07-04 14:37:51.712  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2019-07-04 14:48:53.877  INFO --- [            main] com.example.demo.DemoApplication           50 : Starting DemoApplication on Lenovo-PC with PID 260208 (E:\work\demo\out\production\classes started by lenovo in E:\work\demo)
+2019-07-04 14:48:53.884  INFO --- [            main] com.example.demo.DemoApplication          646 : No active profile set, falling back to default profiles: default
+2019-07-04 14:48:56.623  INFO --- [            main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  330 : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fe7ef39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-04 14:48:57.258  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer    90 : Tomcat initialized with port(s): 8888 (http)
+2019-07-04 14:48:57.283  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Initializing ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:48:57.295  INFO --- [            main] org.apache.catalina.core.StandardService  173 : Starting service [Tomcat]
+2019-07-04 14:48:57.295  INFO --- [            main] org.apache.catalina.core.StandardEngine   173 : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-04 14:48:57.802  INFO --- [            main] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring embedded WebApplicationContext
+2019-07-04 14:48:57.803  INFO --- [            main] o.s.web.context.ContextLoader             283 : Root WebApplicationContext: initialization completed in 3776 ms
+2019-07-04 14:48:58.203  INFO --- [            main] com.alibaba.druid.pool.DruidDataSource    947 : {dataSource-1} inited
+2019-07-04 14:48:58.847  WARN --- [            main] c.e.d.c.s.MyFilterSecurityInterceptor     159 : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2019-07-04 14:48:59.277  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-07-04 14:48:59.285  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-07-04 14:49:00.048  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-04 14:49:00.049  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/css/**'], []
+2019-07-04 14:49:00.050  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/images/**'], []
+2019-07-04 14:49:00.051  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: Ant [pattern='/resources/static/**'], []
+2019-07-04 14:49:00.114  INFO --- [            main] o.s.s.web.DefaultSecurityFilterChain       43 : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70b33256, org.springframework.security.web.context.SecurityContextPersistenceFilter@760f1081, org.springframework.security.web.header.HeaderWriterFilter@478967eb, org.springframework.security.web.authentication.logout.LogoutFilter@167a21b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@26a4f9ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@401e02b4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@dada335, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@45287377, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33d230ce, org.springframework.security.web.session.SessionManagementFilter@7f2b39a, org.springframework.security.web.access.ExceptionTranslationFilter@59328218, com.example.demo.common.security.MyFilterSecurityInterceptor@19da993b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1894fa9f]
+2019-07-04 14:49:00.135  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskScheduler  171 : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-07-04 14:49:00.182  INFO --- [            main] o.s.s.concurrent.ThreadPoolTaskExecutor   171 : Initializing ExecutorService 'brokerChannelExecutor'
+2019-07-04 14:49:00.579  INFO --- [            main] o.s.b.a.w.s.WelcomePageHandlerMapping      58 : Adding welcome page template: index
+2019-07-04 14:49:00.604  INFO --- [            main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping   69 : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-04 14:49:00.806  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  151 : Context refreshed
+2019-07-04 14:49:00.839  INFO --- [            main] s.d.s.w.p.DocumentationPluginsBootstrapper  154 : Found 1 custom documentation plugin(s)
+2019-07-04 14:49:00.896  INFO --- [            main] s.d.s.w.s.ApiListingReferenceScanner       41 : Scanning for api listing references
+2019-07-04 14:49:01.115  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Starting...
+2019-07-04 14:49:01.116  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-07-04 14:49:01.116  INFO --- [            main] o.s.m.s.b.SimpleBrokerMessageHandler      137 : Started.
+2019-07-04 14:49:01.132  INFO --- [            main] o.apache.coyote.http11.Http11NioProtocol  173 : Starting ProtocolHandler ["http-nio-8888"]
+2019-07-04 14:49:01.185  INFO --- [            main] o.s.b.w.embedded.tomcat.TomcatWebServer   202 : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-04 14:49:01.193  INFO --- [            main] com.example.demo.DemoApplication           59 : Started DemoApplication in 8.647 seconds (JVM running for 18.456)
+2019-07-04 14:49:07.163  INFO --- [-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]        173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-04 14:49:07.163  INFO --- [-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet         524 : Initializing Servlet 'dispatcherServlet'
+2019-07-04 14:49:07.179  INFO --- [-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet         546 : Completed initialization in 15 ms
+2019-07-04 14:49:07.445  INFO --- [-nio-8888-exec-1] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:50:00.235  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2019-07-04 14:50:40.093  INFO --- [-nio-8888-exec-5] s.d.s.w.PropertySourcedRequestMappingHandlerMapping   69 : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-04 14:50:45.562  INFO --- [-nio-8888-exec-8] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:51:07.366  INFO --- [-nio-8888-exec-4] c.e.demo.common.config.WebSecurityConfig   52 : 6d789d4353c72e4f625d21c6b7ac2982=================== 6d789d4353c72e4f625d21c6b7ac2982
+2019-07-04 14:51:07.638 ERROR --- [-nio-8888-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]     175 : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.example.demo.controller.LoginController.index(LoginController.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:45009)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:45012)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.invoke(MyFilterSecurityInterceptor.java:48)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.doFilter(MyFilterSecurityInterceptor.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.invoke(MyFilterSecurityInterceptor.java:48)
+	at com.example.demo.common.security.MyFilterSecurityInterceptor.doFilter(MyFilterSecurityInterceptor.java:38)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:40002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-04 15:20:00.183  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2019-07-04 15:50:00.184  INFO --- [ MessageBroker-2] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2]
+2019-07-04 16:20:00.183  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 3]
+2019-07-04 16:50:00.183  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 4]
+2019-07-04 17:20:00.184  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 5]
+2019-07-04 17:50:00.185  INFO --- [ MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats     124 : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 6]
